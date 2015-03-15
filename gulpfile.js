@@ -28,7 +28,7 @@ gulp.task('usemin', function() {
 
 gulp.task('watch', function() {
 	gulp.watch(['./app/*.html','./app/index.html' ], ['copy-html-files']);
-	gulp.watch(['./app/**/*.css', './app/css/app.css'], ['usemin']);
+	gulp.watch(['./app/**/*.css', './app/css/styles.css'], ['usemin']);
 	gulp.watch(['./app/**/*.js', './app/js/app.js'], ['usemin']);
 });
 
