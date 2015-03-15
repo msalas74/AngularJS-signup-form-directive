@@ -100,12 +100,14 @@ header h1 {
 }
 
 .brandLogo{
-	width: 33.3333333%;
+	width: 9rem;
 	height: 9rem;
 	float: left;
 	background-color: #fff;
 	margin-top: .5rem;
 	margin-left: 3rem;
+	background:url("../logo.png") no-repeat center center;
+	background-size: 100% 100%;
 }
 
 

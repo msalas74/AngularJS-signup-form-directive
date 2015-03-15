@@ -6,7 +6,7 @@ app.directive('optIn', function() {
 	return {
 		restrict: 'E',
 		transclude: true,
-		template: '<div class="brandLogo">Logo</div>',
+		template: '<div class="brandLogo"></div>',
 		replace: true
 
 	}
