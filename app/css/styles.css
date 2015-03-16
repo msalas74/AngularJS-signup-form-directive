@@ -110,6 +110,14 @@ header h1 {
 	background-size: 100% 100%;
 }
 
+.brandLogo p{
+	margin-top: 5rem;
+	color: #dedede;
+	-webkit-text-shadow: 1px 1px 1px #000;
+	-moz-text-shadow: 1px 1px 1px #000;
+	text-shadow: 1px 1px 1px #000;
+}
+
 
 .optIn form {
 	width: 45%;
