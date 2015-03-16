@@ -29,3 +29,33 @@ describe('optForm', function() {
 	});
 
 });
+
+describe('optIn', function() {
+	var scope,
+		element,
+		compiled,
+		companyName,
+		html;
+
+	beforeEach(module('myApp'));
+	beforeEach(inject(function($rootScope, $compile) {
+		scope = $rootScope.$new();
+		companyName = "Company";
+		html = "<opt-in>" + companyName + "</opt-in>";
+		compiled = $compile(html);
+		element = compiled(scope);
+		scope.$digest();
+	}));
+
+	it('should render the element and have company logo', function() {
+		expect(element.text()).toContain('Logo');
+		expect(element.text()).toContain(companyName);
+
+	});
+	
+
+});
+
+
+
+

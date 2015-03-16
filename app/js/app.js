@@ -5,7 +5,7 @@ app.directive('optIn', function() {
 	return {
 		restrict: 'E',
 		transclude: true,
-		template: '<div class="brandLogo"></div>',
+		template: '<div class="brandLogo"><p><span ng-transclude></span> Logo</p></div>',
 		replace: true
 
 	}
